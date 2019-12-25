@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/gray"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="144dp"
+        android:onClick="onClickBtn"
+        android:text="Griser image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonColor"
+        android:layout_width="181dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="204dp"
+        android:onClick="onClickBtnColor"
+        android:text="Coloriser image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/toGrayExcept"
+        android:layout_width="184dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="268dp"
+        android:onClick="onClickBtntoGrayExcept"
+        android:text="Griser image sauf une couleur"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="189dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="240dp"
+        android:onClick="onClickBtntELDD"
+        android:text="Augmenter Contraste Gris"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/DimCon"
+        android:layout_width="187dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="496dp"
+        android:onClick="onClickBtntDimCon"
+        android:text="Diminuer Contraste"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/AugConColor"
+        android:layout_width="187dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="324dp"
+        android:onClick="onClickBtntELDDColor"
+        android:text="Augmenter Constraste couleur"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/EgalH"
+        android:layout_width="192dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="164dp"
+        android:onClick="onClickButtonEgalH"
+        android:text="Egaliser Histogramme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/egaliserHColor"
+        android:layout_width="188dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="396dp"
+        android:onClick="onClickButtonEgalHColor"
+        android:text="Egaliser histograme couleur"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="155dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="216dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="146dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="139dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="324dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image5" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="584dp"
+        android:text="Switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="514dp"
+        android:onClick="onClickButtonReset"
+        android:text="Reset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
